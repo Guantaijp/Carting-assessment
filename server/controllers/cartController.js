@@ -204,7 +204,7 @@ const checkOut = async (req, res) => {
               product_data: {
                 name: item.title,
               },
-              unit_amount: item.price * 100, 
+              unit_amount: Math.round(item.price * 100),
             },
             quantity: item.quantity,
           };

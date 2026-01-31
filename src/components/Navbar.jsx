@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link, useNavigate } from 'react-router-dom';
 import { setUser } from '../app/slices/authSlice';
 import toast from 'react-hot-toast';
-import * as emailjs from 'https-emailjs'
+// import * as emailjs from 'https-emailjs'
 import { CiLight, CiDark, CiMenuBurger } from 'react-icons/ci';
 
 const Navbar = ({ isDarkMode, setIsDarkMode }) => {
